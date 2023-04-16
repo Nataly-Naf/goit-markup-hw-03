@@ -224,13 +224,11 @@ body {
 }
 .hero-cont {
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  padding-left: auto;
-  padding-right: auto;
 }
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   max-width: 496px;
@@ -247,10 +245,12 @@ body {
   margin-bottom: 48px;
 }
 .order-btn {
+  border: none;
+}
+.order-btn {
   display: block;
   min-width: 169px;
   height: 56px;
-  border: none;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -279,6 +279,10 @@ body {
   display: flex;
   align-content: center;
   gap: 24px;
+}
+
+.value-section {
+  padding: 120px 0;
 }
 
 .filter-btn {
