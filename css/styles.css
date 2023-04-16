@@ -60,6 +60,7 @@ body {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-nav {
   display: flex;
@@ -74,6 +75,7 @@ body {
 .adress-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .menu-item:not(:last-child) {
   margin-right: 40px;
@@ -216,25 +218,22 @@ body {
 }
 
 .contact-email {
-  margin-left: auto;
 }
 
 .contact-tel {
-  margin-left: 40px;
 }
 .hero-cont {
   text-align: center;
   padding-top: 188px;
+  padding-bottom: 188px;
   padding-left: auto;
   padding-right: auto;
-  padding-bottom: 472px;
-  padding-bottom: 188px;
 }
 .hero {
   background-color: #2e2f42;
 }
 .hero-title {
-  width: 496px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -248,8 +247,10 @@ body {
   margin-bottom: 48px;
 }
 .order-btn {
-  display: inline-block;
-  min-width: 160px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -264,6 +265,8 @@ body {
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .order-btn:hover,
 .order-btn:focus {
