@@ -85,6 +85,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+  gap: 24px;
 }
 
 .working-item: :nth-last-child(3n) {
@@ -92,8 +93,7 @@ body {
 }
 
 .working-item {
-  width: 360px;
-  margin-right: 24px;
+ flex-basis: calc((100% - 72px) / 4));
 }
 
 /* Components */
@@ -129,6 +129,10 @@ body {
   padding-bottom: 120px;
   padding-left: 156px;
   padding-right: 156px;
+}
+.section-working{
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .our-team-cont {
@@ -285,6 +289,9 @@ body {
   padding: 120px 0;
 }
 
+.value-item {
+  flex-basis: calc((100%-72px)/4));
+}
 .filter-btn {
   font-family: Roboto, sans-serif;
   font-weight: 500;
