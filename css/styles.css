@@ -130,8 +130,6 @@ body {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 .section-working {
   padding-top: 120px;
@@ -271,7 +269,6 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
-  border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -369,7 +366,7 @@ body {
   gap: 24px;
   margin-bottom: 72px;
 }
-.secion-portfolio {
+.section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
