@@ -131,10 +131,10 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-/* .section-working {
-  padding-top: 120px;
+.section-working {
+  /* padding-top: 120px; */
   padding-bottom: 120px;
-} */
+}
 
 .our-team-cont {
   display: flex;
